@@ -1,0 +1,4 @@
+FROM postgres:alpine
+ENV POSTGRES_USER apotik
+ENV POSTGRES_PASSWORD admin-apotik
+ENV POSTGRES_DB z-sys-apotik

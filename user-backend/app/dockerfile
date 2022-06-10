@@ -1,0 +1,11 @@
+FROM alpine
+ENV DB_NAME z-sys-user
+ENV DB_USER akun-user
+ENV DB_PASS admin-akun-user
+ENV DB_HOST db-user
+ENV DB_PORT 5432
+
+RUN apk add nodejs npm
+RUN npm config set unsafe-perm true
+RUN npm i -g nodemon && mkdir /app
+CMD [ "nodemon", "src/app" ]

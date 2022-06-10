@@ -1,0 +1,11 @@
+FROM alpine
+ENV DB_NAME z-sys-pendaftaran
+ENV DB_USER pendaftaran
+ENV DB_PASS admin-pendaftaran
+ENV DB_HOST db-pendaftaran
+ENV DB_PORT 5432
+
+RUN apk add nodejs npm
+RUN npm config set unsafe-perm true
+RUN npm i -g nodemon && mkdir /app
+CMD [ "nodemon", "src/app" ]

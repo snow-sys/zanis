@@ -1,0 +1,11 @@
+FROM alpine
+ENV DB_NAME z-sys-kasir
+ENV DB_USER kasir
+ENV DB_PASS admin-kasir
+ENV DB_HOST db-kasir
+ENV DB_PORT 5432
+
+RUN apk add nodejs npm
+RUN npm config set unsafe-perm true
+RUN npm i -g nodemon && mkdir /app
+CMD [ "nodemon", "src/app" ]

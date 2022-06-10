@@ -1,0 +1,4 @@
+FROM postgres:alpine
+ENV POSTGRES_USER rekam-medis
+ENV POSTGRES_PASSWORD admin-rekam-medis
+ENV POSTGRES_DB z-sys-rekam-medis

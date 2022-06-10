@@ -1,0 +1,16 @@
+{
+  "name": "rekam-medis",
+  "version": "1.0.0",
+  "description": "modul rekam medis",
+  "main": "src/app.js",
+  "author": "eore",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "knex": "^0.15.2",
+    "pg": "^7.4.3"
+  }
+}

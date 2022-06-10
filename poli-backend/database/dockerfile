@@ -1,0 +1,4 @@
+FROM postgres:alpine
+ENV POSTGRES_USER poli
+ENV POSTGRES_PASSWORD admin-poli
+ENV POSTGRES_DB z-sys-poli

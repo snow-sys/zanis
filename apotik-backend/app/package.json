@@ -1,0 +1,14 @@
+{
+  "name": "apotik",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "author": "eore",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^7.18.1"
+  }
+}

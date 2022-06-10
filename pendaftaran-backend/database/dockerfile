@@ -1,0 +1,4 @@
+FROM postgres:alpine
+ENV POSTGRES_USER pendaftaran
+ENV POSTGRES_PASSWORD admin-pendaftaran
+ENV POSTGRES_DB z-sys-pendaftaran

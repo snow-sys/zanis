@@ -1,0 +1,4 @@
+FROM postgres:alpine
+ENV POSTGRES_USER kasir
+ENV POSTGRES_PASSWORD admin-kasir
+ENV POSTGRES_DB z-sys-kasir
